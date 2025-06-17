@@ -1,0 +1,111 @@
+Jul 31 16:09:19 debian sudo[1543]:   debian : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl stop speech-dispatcher
+Jul 31 16:14:37 debian sudo[1602]:   debian : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=usermood -aG root debian
+Jul 31 16:16:44 debian sudo[1657]:   debian : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=usermood -aG sudo debian
+Jul 31 16:19:16 debian sudo[1684]:   debian : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/visudo
+Jul 31 16:33:43 debian sudo[2368]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/rmmod speakup
+Jul 31 16:34:42 debian sudo[2380]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/rmmod speakup_soft
+Jul 31 16:35:47 debian sudo[2429]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove speakup
+Jul 31 16:35:56 debian sudo[2444]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove speakup_soft
+Jul 31 16:37:23 debian sudo[2510]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/ls /etc
+Jul 31 16:38:21 debian sudo[2576]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/ls /etc/modprobe.d/
+Jul 31 16:39:49 debian sudo[2676]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/modprobe.d/blacklist-speakup.conf
+Jul 31 16:42:17 debian sudo[2759]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/default/grub
+Jul 31 16:44:23 debian sudo[2857]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/update-grub
+Jul 31 16:44:35 debian sudo[3489]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/reboot
+Jul 31 16:47:50 debian sudo[1417]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove speech
+Jul 31 16:48:47 debian sudo[1478]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove espeak
+Jul 31 16:49:15 debian sudo[1491]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove espeakup
+Jul 31 16:49:56 debian sudo[1605]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove libespeak
+Jul 31 16:50:33 debian sudo[1633]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/modprobe.d/blacklist-speakup.conf
+Jul 31 16:52:07 debian sudo[1745]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get remove espeakup
+Jul 31 16:53:05 debian sudo[1833]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl disable espeakup
+Jul 31 16:57:03 debian sudo[2141]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/lib/systemd/systemd-sysv-install disable espeakup
+Jul 31 16:57:19 debian sudo[2180]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/lib/systemd/systemd-sysv-install disable espeakup
+Jul 31 16:58:07 debian sudo[2271]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/service espeakup stop
+Jul 31 16:59:40 debian sudo[2315]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl status espeakup
+Jul 31 18:17:09 debian sudo[3550]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Sep 30 09:54:43 debian sudo[1597]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 30 09:58:02 debian sudo[1870]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Sep 30 10:43:49 debian sudo[35502]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install apache2 -y
+Sep 30 10:45:53 debian sudo[36075]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl enable apache2
+Sep 30 10:47:53 debian sudo[36152]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start apache2
+Sep 30 10:48:01 debian sudo[36172]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl status apache2
+Sep 30 11:02:46 debian sudo[36301]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install mysql-server php php-mysqli -y
+Sep 30 11:03:44 debian sudo[36362]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install mariadb-server -y
+Sep 30 11:16:48 debian sudo[37304]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start maria-db
+Sep 30 11:17:41 debian sudo[37319]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install mariadb-server
+Sep 30 11:18:06 debian sudo[37346]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start mariadb-server
+Sep 30 11:18:23 debian sudo[37360]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start mariadb
+Sep 30 11:18:41 debian sudo[37402]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl enable mariadb
+Sep 30 11:19:08 debian sudo[37485]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Sep 30 11:23:25 debian sudo[37585]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Sep 30 11:46:05 debian sudo[38349]:   debian : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt install curl
+Sep 30 11:56:21 debian sudo[38495]:   debian : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/cp -a /tmp/wordpress/. /var/www/html/
+Sep 30 11:57:49 debian sudo[38553]:   debian : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/chown -R www-data:www-data /var/www/html/
+Sep 30 11:58:23 debian sudo[38598]:   debian : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/chmod -R 755 /var/www/html/
+Sep 30 11:59:38 debian sudo[38666]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mv wp-config-sample.php wp-config.php
+Sep 30 12:00:08 debian sudo[38693]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/nano wp-config.php
+Sep 30 12:05:46 debian sudo[39731]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Sep 30 12:06:00 debian sudo[39831]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl status apache2
+Sep 30 12:11:37 debian sudo[40186]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install php libapache2-mod-php php-mysqli php-gd php-xml php-mbstring php-curl -y
+Sep 30 12:15:25 debian sudo[50261]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/000-default.conf
+Sep 30 12:18:19 debian sudo[50495]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/000-default.conf
+Sep 30 12:19:00 debian sudo[50603]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Sep 30 12:19:23 debian sudo[50659]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /var/www/html/info.php
+Sep 30 12:25:03 debian sudo[51170]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+Sep 30 12:26:19 debian sudo[51493]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Sep 30 12:26:29 debian sudo[51518]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+Sep 30 12:26:45 debian sudo[51577]:   debian : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Sep 30 15:15:12 debian sudo[1702]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start apache2
+Sep 30 15:28:10 debian sudo[2537]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 30 15:29:07 debian sudo[2866]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install apache2 mysql-server php php-mysql libapache2-mod-php
+Sep 30 15:30:25 debian sudo[2986]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Sep 30 15:30:52 debian sudo[3030]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Sep 30 15:31:45 debian sudo[3128]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/000-default.conf
+Sep 30 15:32:42 debian sudo[3173]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Sep 30 15:33:22 debian sudo[3213]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mariadb
+Sep 30 15:37:17 debian sudo[4195]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl start mariadb
+Sep 30 15:37:33 debian sudo[4228]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl status mariadb
+Oct 08 16:08:57 debian sudo[4687]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install vsftpd
+Oct 08 16:09:38 debian sudo[4886]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/vsftpd.conf
+Oct 08 16:10:37 debian sudo[5045]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart vsftpd
+Oct 08 16:12:13 debian sudo[5104]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Oct 08 16:12:55 debian sudo[5157]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Oct 08 16:14:16 debian sudo[5335]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 08 16:14:59 debian sudo[5376]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Oct 08 16:15:16 debian sudo[5442]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/netstat -tuln
+Oct 08 16:16:37 debian sudo[5480]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/ls -l /var/www/html
+Oct 08 16:17:59 debian sudo[5532]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/chmod -R 777 /var/www/html
+Oct 08 16:20:04 debian sudo[5592]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/html/wp-config.php
+Oct 08 16:21:23 debian sudo[5646]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/apache2.conf
+Oct 08 16:24:30 debian sudo[5975]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Oct 08 16:47:18 debian sudo[2008]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart networking
+Oct 08 17:23:01 debian sudo[2851]:   debian : TTY=pts/2 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/sbin/ip a
+Oct 08 17:25:42 debian sudo[2960]:   debian : TTY=pts/2 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl restart networking
+Jun 04 21:24:31 debian sudo[3109]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt install htop
+Jun 04 21:36:30 debian sudo[3555]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find / -tyoe f -name auth.log
+Jun 04 21:36:41 debian sudo[3599]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find / -type f -name auth.log
+Jun 04 21:37:49 debian sudo[3671]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find / -type f -iname *auth*
+Jun 04 21:44:24 debian sudo[3978]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun 04 21:44:50 debian sudo[4251]:   debian : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Jun 04 21:50:37 debian sudo[41948]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/find / -type f -mtime -1
+Jun 04 21:51:29 debian sudo[42039]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install build-essential
+Jun 04 21:54:18 debian sudo[44069]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install linux-headers-6.1.0-25-amd64 dkms
+Jun 04 21:54:39 debian sudo[44104]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install module-assistant
+Jun 04 21:55:24 debian sudo[44209]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install xserver-xorg xserver-xorg-core
+Jun 04 21:55:33 debian sudo[44225]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/m-a prepare
+Jun 04 21:57:17 debian sudo[44588]:   debian : TTY=pts/1 ; PWD=/media/cdrom0 ; USER=root ; COMMAND=/usr/bin/sh ./VboxLinuxAdditions.run
+Jun 04 21:57:46 debian sudo[44614]:   debian : TTY=pts/1 ; PWD=/media/cdrom0 ; USER=root ; COMMAND=/usr/bin/sh ./VBoxLinuxAdditions.run
+Jun 06 20:46:54 debian sudo[2736]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mysql -u root -pCopiar
+Jun 06 21:17:06 debian sudo[4133]:   debian : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Jun 09 20:36:48 debian sudo[2535]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Jun 09 20:46:32 debian sudo[3254]:   debian : TTY=pts/2 ; PWD=/home/debian/Documents ; USER=root ; COMMAND=/usr/bin/mysql -u wordpressuser -p
+Jun 09 21:01:08 debian sudo[3491]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mysql -u wordpressuser -p
+Jun 09 21:04:44 debian sudo[3539]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mysql -u user -p
+Jun 09 21:29:33 debian sudo[4073]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/netstat -tuln
+Jun 09 21:31:21 debian sudo[4211]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+Jun 09 21:34:36 debian sudo[4392]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/systemctl status vsftpd
+Jun 09 21:38:59 debian sudo[4518]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cat /etc/vsftpd.conf
+Jun 09 21:57:07 debian sudo[5343]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cat /etc/vsftpd.conf
+Jun 10 19:29:42 debian sudo[4866]:   debian : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 12 19:47:19 debian sudo[7511]:   debian : TTY=pts/1 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/find / -type f -name wp-config.php
